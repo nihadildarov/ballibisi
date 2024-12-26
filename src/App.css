@@ -1,0 +1,68 @@
+/* App.css */
+
+/* Sidebar Styles */
+.sidebar {
+  transition: width 0.3s;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+.sidebar.expanded {
+  width: 200px;
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  transition: opacity 0.3s;
+}
+
+.sidebar.collapsed h2 {
+  opacity: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.sidebar ul li:hover {
+  text-decoration: underline;
+}
+
+.sidebar ul li span {
+  transition: opacity 0.3s, margin-left 0.3s;
+}
+
+.sidebar.collapsed ul li span {
+  opacity: 0;
+  margin-left: -20px;
+}
+
+/* Sidebar toggle button */
+.sidebar-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+/* Main Content Styles */
+.main {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.form-container {
+  max-width: 400px;
+}
+
+/* Other styles remain unchanged */
