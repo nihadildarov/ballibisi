@@ -23,7 +23,7 @@ function App() {
         <ul>
           <li>
             <i className="icon">⚙️</i>
-            <span> Yetkilendirme</span>
+            <span> Yetkiləndirmə</span>
           </li>
           <li>
             <i className="icon">👤</i>
